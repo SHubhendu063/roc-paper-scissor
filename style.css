@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(WhatsApp\ Image\ 2025-09-07\ at\ 15.21.03_e1547f01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 62.5%;
+}
+.game-container h1{
+    margin: 10px;
+    color: rgb(240, 240, 19);
+    font-size: 2rem;
+}
+.game-container hr{
+    width: 30rem;
+    margin-bottom: 10px;
+}
+.score-board{
+    color: wheat;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    margin: 2rem;
+}
+.badge{
+   margin: 0.5rem 1rem;
+   font-size:1.7rem ;
+}
+.score-board span{
+    font-size: 1.3rem;
+}
+.result{
+    color: white;
+}
+.result{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+   color:rgb(240, 240, 19) ;
+   margin: 2.5rem;
+}
+.choice{
+    height: 5rem;
+    aspect-ratio: 1;
+    font-size: 3rem;
+    border-radius: 10px;
+    margin: 0 0.5rem;
+    
+}
